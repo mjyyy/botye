@@ -10,7 +10,7 @@ console.log('Yellow Egales bot started')
 
 })
 
-bot.login('NDIyNDA0ODgyNDU3Mjk2OTA2.DZ_jcg.um9CJWPxUi-m0pGNjKVv1v__Vps')
+bot.login('process.env.TOKEN')
 
 bot.on('message', message => {
 if (message.content === prefix + "challenge"){
